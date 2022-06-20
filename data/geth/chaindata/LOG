@@ -1,0 +1,32 @@
+=============== Jun 17, 2022 (CST) ===============
+23:24:24.201796 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+23:24:24.340804 db@open opening
+23:24:24.346644 version@stat F·[] S·0B[] Sc·[]
+23:24:24.369383 db@janitor F·2 G·0
+23:24:24.369948 db@open done T·29.098753ms
+23:24:24.532286 db@close closing
+23:24:24.532696 db@close done T·408.486µs
+=============== Jun 18, 2022 (CST) ===============
+23:24:44.573247 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+23:24:44.574505 version@stat F·[] S·0B[] Sc·[]
+23:24:44.575688 db@open opening
+23:24:44.576210 journal@recovery F·1
+23:24:44.578553 journal@recovery recovering @1
+23:24:44.632501 memdb@flush created L0@2 N·11 S·583B "H\xc1\xd4..\xd9\xea>,v4":"r\x00\x00..\xd9\xea>,v6"
+23:24:44.633351 version@stat F·[1] S·583B[583B] Sc·[0.25]
+23:24:44.744595 db@janitor F·3 G·0
+23:24:44.745000 db@open done T·169.240465ms
+23:24:44.903892 db@close closing
+23:24:44.904110 db@close done T·215.554µs
+=============== Jun 18, 2022 (CST) ===============
+23:30:28.735811 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+23:30:28.737576 version@stat F·[1] S·583B[583B] Sc·[0.25]
+23:30:28.737675 db@open opening
+23:30:28.737840 journal@recovery F·1
+23:30:28.741640 journal@recovery recovering @3
+23:30:28.772467 memdb@flush created L0@5 N·1 S·303B "eth..\xd9\xea>,v13":"eth..\xd9\xea>,v13"
+23:30:28.775289 version@stat F·[2] S·886B[886B] Sc·[0.50]
+23:30:28.858016 db@janitor F·4 G·0
+23:30:28.858209 db@open done T·120.512946ms
+23:31:46.680939 db@close closing
+23:31:46.681484 db@close done T·539.778µs
